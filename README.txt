@@ -8,3 +8,6 @@
 
 # betterlockscree backgrounds
 > betterlockscree -u /usr/share/backgrounds/anime/
+
+# Change style to "keyboards"
+# Openbox Theme Sweet-Dark
