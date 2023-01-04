@@ -9,6 +9,7 @@
 > sudo cp -r ./theme.conf /usr/share/sddm/themes/archcraft/
 
 > cp -r ./picom.conf ~/.config/
+> cp -r ./config.rasi ~/.config/rofi/
 
 
 # betterlockscree backgrounds
