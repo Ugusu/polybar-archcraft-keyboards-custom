@@ -8,6 +8,8 @@
 > sudo cp -r ./Backgrounds /usr/share/sddm/themes/archcraft/
 > sudo cp -r ./theme.conf /usr/share/sddm/themes/archcraft/
 
+> cp -r ./picom.conf ~/.config/
+
 
 # betterlockscree backgrounds
 > betterlockscreen -u /usr/share/backgrounds/anime/
