@@ -14,3 +14,10 @@
 
 # Change style to "keyboards"
 # Openbox Theme Sweet-Dark
+
+# Icons
+> yay -S candy-icons-git sweet-folders-icons-git
+
+# Then go to the Settings Manager >> Appearance
+# Chose Sweet-{Style}
+# candy-icons are already inherited in the index.theme file of the Sweet-Folders
