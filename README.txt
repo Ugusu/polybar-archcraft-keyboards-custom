@@ -24,3 +24,20 @@
 # Then go to the Settings Manager >> Appearance
 # Chose Sweet-{Style}
 # candy-icons are already inherited in the index.theme file of the Sweet-Folders
+
+# In my xfce4-keyboard there where only Azerbaijany (Cyrilic)
+# First check Settings Manager >> Keyboard >> Layout >> Add
+# to see, if what you need is there already
+# If no, to add Azerbaijany Latin one
+
+> sudo cp -r ./evdev.xml > /usr/share/X11/xkb/rules/
+
+# You can add other layouts to the menu, if they are defined in the /usr/share/X11/xkb/symbols/<layout> file.
+# xkb_symbols should be added inside of <name></name> tag, in the <variant></variant> tag
+# Example:
+<variant>
+  <configItem>
+    <name>latin</name>
+    <description>Azerbaijani</description>
+  </configItem>
+</variant>
